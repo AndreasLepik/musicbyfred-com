@@ -5,16 +5,16 @@ Written by Andreas Lepik <https://github.com/AndreasLepik>
 
 /* Define variables */
 :root {
-    --neutral-color: rbg(10, 10, 10);
+    --neutral-color: rbg(65, 65, 65);
 }
 
 body {
-    background: url(images/vertical-back.JPG) top 20% center lightseagreen;
+    background: url(images/vertical-back.JPG) top 35% center rgb(37, 37, 37);
     background-size: cover;
     text-align: center;
-    font-family: 'DM Sans', sans-serif;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Times New Roman';
+    /* justify-content: center; */
+    /* align-items: center; */
     font-size: 1.25em;
 }
 
@@ -22,3 +22,29 @@ h2, h1, a {
     color: white
 }
 
+h2 {
+    font-size: 3vw;
+    border-top: 0px;
+    margin: 0px;
+    margin-top: 5vw;
+    padding: 0px;
+
+}
+
+h1 {
+    position: relative;
+    top: -5vw;
+    font-size: 18vw;
+    font-weight: bolder;
+    /* border-top: 0px; */
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid white; */
+}
+
+#title {
+    margin-top: 25%;
+    /* max-height: 27vw; */
+    /* border: 1px solid white; */
+
+}
