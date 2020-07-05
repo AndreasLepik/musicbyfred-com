@@ -1,0 +1,24 @@
+/* 
+Styling for musicbyfred.com
+Written by Andreas Lepik <https://github.com/AndreasLepik>
+*/
+
+/* Define variables */
+:root {
+    --neutral-color: rbg(10, 10, 10);
+}
+
+body {
+    background: url(images/vertical-back.JPG) top 20% center lightseagreen;
+    background-size: cover;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+h2, h1, a {
+    color: white
+}
+
