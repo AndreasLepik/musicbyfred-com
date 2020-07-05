@@ -1,0 +1,24 @@
+{
+  "name": "musicbyfred-com",
+  "version": "1.0.0",
+  "description": "Simple web page for musician Fred.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server src",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasLepik/musicbyfred-com.git"
+  },
+  "author": "Andreas Lepik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasLepik/musicbyfred-com/issues"
+  },
+  "homepage": "https://github.com/AndreasLepik/musicbyfred-com#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
