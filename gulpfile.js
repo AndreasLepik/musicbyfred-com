@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+// var imagemin = require('gulp-imagemin');
 
 gulp.task('html', function() {
     return gulp.src('src/*.html')
