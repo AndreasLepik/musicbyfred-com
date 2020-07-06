@@ -10,5 +10,10 @@ gulp.task('css', function() {
         .pipe(gulp.dest('dist/'));
 });
 
+gulp.task('images', function() {
+    return gulp.src('src/images/*')
+        .pipe(gulp.dest('dist/images/'));
+});
 
-exports.default = gulp.parallel('css', 'html');
+
+exports.default = gulp.parallel('images', 'css', 'html');
