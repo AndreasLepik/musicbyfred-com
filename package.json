@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "live-server src",
     "start": "npm run dev",
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/AndreasLepik/musicbyfred-com#readme",
   "dependencies": {
     "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
