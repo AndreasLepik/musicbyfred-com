@@ -14,12 +14,10 @@ body {
         rgba(0, 0, 0, 0.75), 
         rgba(0, 0, 0, 0.75)
       ),
-      url(images/vertical-back.JPG) top 35% center rgb(37, 37, 37);
+      url(images/vertical-back.JPG) top 35% center no-repeat rgb(37, 37, 37);
     background-size: cover;
     text-align: center;
     font-family: 'Times New Roman';
-    /* justify-content: center; */
-    /* align-items: center; */
     font-size: 1.25em;
 }
 
@@ -52,15 +50,29 @@ a {
 }
 
 #title {
-    margin-top: 45vh;
+    margin-top: 38vh;
 }
 
 #links {
-    position: relative;
-    bottom: 5%;
-    /* left: 0; */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border: 1px solid white;
+    padding-bottom: 1em;
+}
+
+#links > * {
+    transition:  0.5s color;
+}
+
+#links > *:hover {
+    color: rgb(71, 136, 71);
+}
+
+@media (max-width: 400px){
+    #title > *{
+        /* color: rgb(71, 136, 71); */
+    }
+
+    #links {
+        /* line-height: 5em; */
+        display: grid;
+        /* border: solid white 1px; */
+    }
 }
