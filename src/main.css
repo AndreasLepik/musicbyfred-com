@@ -3,21 +3,16 @@ Styling for musicbyfred.com
 Written by Andreas Lepik <https://github.com/AndreasLepik>
 */
 
-/* Define variables */
-:root {
-    --neutral-color: rbg(65, 65, 65);
-}
-
 body {
     background: 
     linear-gradient(
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
       ),
-      url(images/vertical-back.jpg) top 35% center no-repeat rgb(37, 37, 37);
+      url(images/vertical-back-rotated.jpg) top 35% center no-repeat rgb(37, 37, 37);
     background-size: cover;
     text-align: center;
-    font-family: 'Times New Roman';
+    font-family: Unna, 'Times New Roman';
     font-size: 1.25em;
 }
 
@@ -35,15 +30,16 @@ h2 {
 
 h1 {
     position: relative;
-    top: -4.5vw;
-    font-size: 18vw;
-    font-weight: bolder;
+    top: -5.5vw;
+    font-size: 20vw;
+    font-weight: 700;
     margin: 0px;
     padding: 0px;
 }
 
 a {
     font-size: 1.5em;
+    font-weight: 400;
     margin: 0.5em;
     text-decoration: none;
 }
@@ -57,15 +53,25 @@ a {
 }
 
 #links > * {
-    transition:  0.5s color;
+    transition: 0.5s;
 }
 
 #links > *:hover {
     color: rgb(71, 136, 71);
 }
 
-@media (max-width: 600px){
+@media (max-width: 414px){
     #links {
         display: grid;
+    }
+
+    body {
+        background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
+          ),
+          url(images/vertical-back-slim.jpg) top 35% center no-repeat rgb(37, 37, 37);
+        background-size: cover;  
     }
 }
