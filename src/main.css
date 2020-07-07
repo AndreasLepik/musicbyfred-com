@@ -11,8 +11,8 @@ Written by Andreas Lepik <https://github.com/AndreasLepik>
 body {
     background: 
     linear-gradient(
-        rgba(0, 0, 0, 0.75), 
-        rgba(0, 0, 0, 0.75)
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
       ),
       url(images/vertical-back.jpg) top 35% center no-repeat rgb(37, 37, 37);
     background-size: cover;
