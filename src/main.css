@@ -65,6 +65,19 @@ a {
         display: grid;
     }
 
+    #title {
+        margin-top: 33vh;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    h1 {
+        font-size: 30vw;
+        top: -7.5vw;
+    }
+
     body {
         background: 
         linear-gradient(
